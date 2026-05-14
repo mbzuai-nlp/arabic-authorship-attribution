@@ -11,7 +11,7 @@ The data for this task is provided [here](style_ranking_data.csv).
 ## Human and Automatic Annotations:
 
 - Human Study: 
-  - We provide the [human annotations](human_study/style_ranking_human_annotations.tsv) and the [annotation guidelines](human_study/Style_Ranking_Annotation_Guidelines.pdf).
+  - We provide the [human annotations](human_study/style_ranking_human_annotations.tsv) and the [annotation guidelines](human_study/Style_Ranking_annotation_guidelines.pdf).
 - LLMs:
   - To reproduce LLM outputs, run: [llms/scripts/run_llms.sh](llms/scripts/run_llms.sh). The LLM outputs are placed in [llms/output](llms/output)
 - AA:
