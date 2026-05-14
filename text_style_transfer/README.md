@@ -16,8 +16,8 @@ This directory contains scripts and resources for reproducing the text style tra
 
 - BERTScore: To calculate BERTScore figures, run: [eval/run_bertscore.sh](eval/run_bertscore.sh)
 - Transfer accuracy: To run inference on the AA model, follow the instructions in [../authorship_attribution/README.md](../authorship_attribution/README.md). You will need to:
-  (1) Prepare the neutralized data and TST outputs in the format needed for inferencing the AA model. To prepare the data, you run to the data preparation scripts placed in : [../authorship_attribution/Contra-X_AR/prepare_data.sh](../authorship_attribution/Contra-X_AR/prepare_data.sh)
-  (2) Run the TST inference scripts: [../authorship_attribution/Contra-X_AR/run_inference_A3D.sh](../authorship_attribution/Contra-X_AR/run_inference_A3D.sh)
+  (1) Prepare the neutralized data and TST outputs in the format needed for inferencing the AA model. To prepare the data, you run to the data preparation scripts placed in : [../authorship_attribution/Contra-X_AR/prepare_dataset_contraxFormat.sh](../authorship_attribution/Contra-X_AR/prepare_data.sh)
+  (2) Run the TST inference scripts: [../authorship_attribution/Contra-X_AR/run_inference.sh](../authorship_attribution/Contra-X_AR/run_inference.sh)
 
 ## Stylometric Analysis:
 - To reproduce the stylometric analysis results, run the scripts in: [stylometric_analysis/run_analysis.sh](stylometric_analysis/run_analysis.sh). You will first need to obtain the original [SAMER lexicon](https://aclanthology.org/2020.lrec-1.373.pdf) needed for calculating the readability levels.
