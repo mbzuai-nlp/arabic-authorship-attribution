@@ -15,7 +15,7 @@ conda activate contrax
 pip install -r requirements.txt 
 ```
 - Data Preparation: 
-  - You need to prepare the original A3D dataset, neutralized data and TST outputs in the format needed for training and inferencing the AA model. To prepare the data, run: [Contra-X_AR/prepare_dataset_contraxFormat.sh](Contra-X_AR/prepare_dataset_contraxFormat.sh). The output is placed under [Contra-X_AR/datasets](Contra-X_AR/datasets). 
+  - You need to prepare the original A3D dataset, neutralized data and TST outputs in the format needed for training and inferencing the AA model. To prepare the data, run: [Contra-X_AR/prepare_dataset_contraxFormat.sh](Contra-X_AR/prepare_dataset_contraxFormat.sh).
 - Training: 
   - To the train the AA models, run: [Contra-X_AR/run_training.sh](Contra-X_AR/run_training.sh)
 - Inference: 
